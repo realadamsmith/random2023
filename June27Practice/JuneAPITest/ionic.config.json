@@ -1,0 +1,7 @@
+{
+  "name": "JuneAPITest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

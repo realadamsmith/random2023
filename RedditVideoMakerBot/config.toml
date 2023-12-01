@@ -1,0 +1,33 @@
+[settings]
+allow_nsfw = false
+theme = "light"
+times_to_run = 1
+opacity = 0.9
+transition = 0.2
+storymode = false
+
+[settings.background]
+background_choice = "lagruniGildan"
+
+[settings.tts]
+python_voice = "1"
+py_voice_num = "2"
+voice_choice = "googletranslate"
+tiktok_voice = "en_us_006"
+aws_polly_voice = "Nicole"
+streamlabs_polly_voice = "Nicole"
+
+[reddit.creds]
+client_id = "ZMX3nJxSSC8N7fD0PFzabg"
+client_secret = "eTxqo1oH1R7NE7mvWxs-878SAy5pbg"
+username = "BackToTheFuture"
+password = "Shareholder10meetings"
+2fa = false
+
+[reddit.thread]
+subreddit = "DataIsBeautiful"
+post_id = ""
+max_comment_length = 300
+post_lang = ""
+min_comments = 20
+random = false
