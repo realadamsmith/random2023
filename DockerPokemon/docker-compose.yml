@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  backend2:
+    image: node:latest
+    environment:
+      POSTGRES_PASSWORD: example
+    restart: always
+    volumes:
+      - db_vol:/how/deep
+  
+  backend3:
+    image: postgres:latest
+    environment:
+      POSTGRES_PASSWORD: example
+    restart: always
+    volumes:
+      - db_vol:/how/deep
+  
