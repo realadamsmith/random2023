@@ -1,0 +1,7 @@
+{
+  "name": "DeliverrPracertice",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
